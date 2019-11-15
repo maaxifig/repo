@@ -70,7 +70,7 @@ while true; do
 	3)
 		read -p "Ingrese cadena a evaluar" cad
 		invertida=`echo $cad | rev`
-		if[ $cad=$invertida ]
+		if [ $cad=$invertida ]
 		then
 			echo "La cadena es palindormo"
 		else
